@@ -1,0 +1,147 @@
+body {
+  background: #282c33;
+  font-family: "Fira Code", monospace;
+  color: #fff;
+  /* font-weight: 500; */
+}
+
+.wrapper {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.header {
+  width: auto;
+  height: 61px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+.logo__name {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.menu__item {
+  text-decoration: none;
+  color: #fff;
+  padding-right: 32px;
+}
+
+.symbol {
+  color: #c778dd;
+}
+
+.main__banner {
+  height: 424px;
+  width: auto;
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.main__topic {
+  font-size: 34px;
+  font-weight: 600;
+}
+
+.span__primary {
+  color: #c778dd;
+}
+
+.main__description {
+  font-size: 16px;
+  font-weight: 500;
+  color: #abb2bf;
+  margin-top: 32px;
+  line-height: 25px;
+}
+
+.main__button {
+  border: 1px solid #c778dd;
+  margin-top: 24px;
+  padding: 8px 16px;
+}
+
+.main__button:hover {
+  background: #c778dd;
+  color: #fff;
+  border: 1px solid #abb2bf;
+}
+
+.main-content {
+  display: flex;
+}
+.main__section {
+  display: flex;
+}
+/* Logos Main */
+/* .main__logo { */
+/*   position: absolute; */
+/*   width: 155px; */
+/*   height: 155px; */
+/*   z-index: 1; */
+/* } */
+/**/
+.main__image {
+  width: auto;
+  height: 360px;
+  object-fit: cover;
+  /* z-index: 2; */
+  /* position: absolute; */
+  /* top: 0; */
+}
+
+/* .main__dots { */
+/*   width: 184px; */
+/*   height: 184px; */
+/* } */
+
+/* Section Projects  */
+.project__image {
+  width: auto;
+  height: 200px;
+  object-fit: cover;
+}
+.section__projects {
+  margin-top: 48px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.section__title {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.project__item {
+  border: 1px solid #abb2bf;
+  width: 300px;
+}
+
+.item__title {
+  font-weight: 500;
+  font-size: 24px;
+  padding: 5px 5px 5px 15px;
+}
+
+.item__desc {
+  font-weight: 400;
+  font-size: 16px;
+  color: grey;
+  padding: 5px;
+  border-bottom: 1px solid #abb2bf;
+}
+.__2 {
+  border: none;
+  padding: 5px 5px 5px 15px;
+}
+
+.section__skills {
+  margin-top: 120px;
+}
