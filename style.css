@@ -189,7 +189,8 @@ body {
 }
 
 /*Section About-Me*/
-
+/* .section__about-me { */
+/* } */
 ._about {
   margin-top: 120px;
 }
@@ -206,4 +207,71 @@ body {
 
 .item__desc {
   margin-top: 20px;
+}
+
+.line__purple {
+  color: #c778dd;
+  font-size: 12px;
+}
+
+/*Seciotn Contacts*/
+._contacts {
+  margin-top: 120px;
+}
+
+.contacts__desc {
+  width: 50%;
+}
+.section__contacts {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.desc__text,
+.contacts__email,
+.contacts__git {
+  color: #abb2bf;
+  font-weight: 500;
+}
+
+.contacts__social {
+  border: 1px solid #abb2bf;
+  padding: 10px 10px;
+  max-width: 50%;
+}
+
+.contacts__social h3 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.contacts__email {
+  margin-top: 10px;
+}
+
+/*Footer*/
+
+.footer {
+  display: flex;
+  margin-top: 80px;
+  border-top: 1px solid #abb2bf;
+  padding-top: 30px;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer__desc {
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.footer__copy {
+  font-weight: 400;
+  font-size: 16px;
+  color: #abb2bf;
+  margin-left: 40%;
+  margin-bottom: 10px;
 }
